@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 43); 
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+#pencil {
+    width: 300px; 
+    cursor: pointer;
+    transition: transform 2s ease-in-out;
+}
+
+#pencil.rotate {
+    transform: rotate(540deg);
+}
